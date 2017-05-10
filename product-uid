@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+. /etc/os-release
+
+if [ -z "$UPDATEHUB_PRODUCT_UID" ]; then
+	exit 1
+fi
+
+echo "$UPDATEHUB_PRODUCT_UID"

@@ -3,7 +3,7 @@
 set -e
 
 if [ -e /etc/os-release ]; then
-	. /etc/os-release
+    . /etc/os-release
 
-	echo "$VERSION_ID"
+    echo "$VERSION_ID"
 fi

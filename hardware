@@ -3,11 +3,11 @@
 set -e
 
 if [ -e /etc/updatehub/machine ]; then
-	. /etc/updatehub/machine
+    . /etc/updatehub/machine
 fi
 
 if [ -z "$MACHINE" ]; then
-	echo unknown
+    echo unknown
 fi
 
 echo "$MACHINE"
